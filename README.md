@@ -1,2 +1,2 @@
 # DépôtsQuébec
-Dépôts pour les addiciels Kodi du Québec
+Dépôts pour les addiciels Kodi pour les chaînes francophones du Québec
