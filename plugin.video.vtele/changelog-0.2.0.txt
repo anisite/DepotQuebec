@@ -1,0 +1,34 @@
+0.2.0 =======
+- Correction d'un bug causé par le changement de la sécurité sur l'api de V
+
+0.1.9 =======
+- Correction du choix de la qualité des vidéos, un changement chez Vtélé affectait 
+  la qualité "HD" les vidéos ne sont plus proposés en 720p mais bien en 700p, mon 
+  traiement ne trouvait pas le bon vidéo et lisait donc le dernier, sois celui avec 
+  la moins bonne qualité.
+
+0.1.8 =======
+- Correction du bug au retour au menu principal à la fin d'une émission
+- Support de la mise en favoris des épisodes
+
+0.1.7 =======
+Correction d'un problème de mise à jour du nom de l'émission en cours
+
+0.1.6 =======
+Correction d'un problème de mise à jour du nom de l'émission en cours
+
+0.1.5 =======
+Correction du bug de chargement de l'application (suite à des changements chez Vtélé)
+
+0.1.3 =======
+Support de GOTHAM
+
+0.1.2 =======
+Correction du plugin pour la compatibilité avec XBMC FRODO (12.0)
+
+0.1.1 =======
+Ajout du streaming en live des émissions
+
+0.1.0 =======
+Première version BETA!
+Corrige un bug avec certaine librairie liburl qui n'acceptaient pas le HTTPS

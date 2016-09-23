@@ -1,0 +1,3 @@
+0.1.0 =======
+Première version BETA!
+Corrige un bug avec certaine librairie liburl qui n'acceptaient pas le HTTPS

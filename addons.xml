@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.3" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.TV5QuebecCanada"
+       name="TV5 Québec Canada"
+       version="1.0.3"
+       provider-name="SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the TV5.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site TV5.ca</summary>
+        <description>Play videos from TV5.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder au contenu vidéo de TV5.ca.</description>
+    </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.0.2" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.0.2"
+       provider-name="CB, SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+	    <summary>Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+	    <description>Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.unisTV"
+       name="Unis TV"
+       version="1.0.2"
+       provider-name="SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <!--<import addon="script.module.simple.downloader" version="0.9.4"/>-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Unis.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site Unis.ca</summary>
+        <description>Play videos from Unis.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder au contenu vidéo d'Unis.ca.</description>
+    </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="NOOVO" version="0.3.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
+</addon>
+
+<addon id="repository.depot.quebec" name="Dépôt Québec"
+        version="1.0.0" provider-name="dualB">
+    <requires>
+        <import addon="xbmc.addon" version="12.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+        name="Dépôt Québec - Addiciels des chaînes de télévision québécoises">
+        <info compressed="true">https://raw.githubusercontent.com/dualB/DepotQuebec/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/dualB/DepotQuebec/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/dualB/DepotQuebec/master/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="fr">Addiciels de chaînes de télévision québécoises et francophones canadiennes</summary>
+        <summary lang="en">Add-ons of Quebec television channels and french Canadian television channels</summary>
+        <description lang="fr">Naviguez parmi le contenu des chaînes télévision québécoises et francophones canadiennes disponibles sur leur site web. Certains contenus nécessitent un abonnement préalable à ces chaînes.</description>
+        <description lang="en">Navigate through the content of the Canadian and Quebec francophone television channels available on their website. Some content requires a prior subscription to these channels.</description>
+	</extension>
+</addon>
+</addons>

@@ -1,0 +1,13 @@
+[B]1.0.2 | SlySen | 2016-08-24[/B] 
+- script.module.simplejson is not optional (Thx to bmaupin)
+- Do real back action to return to the main menu 
+- Settings dependencies
+
+[B]1.0.1 | SlySen | 2016-06-12[/B] 
+- Setting. Auto-delete Kodi .fi temp files
+- Enable access to the addon settings from the main page
+- Popup a warning dialog instead of an empty directory if no video
+
+[B]1.0.0 | SlySen | 2016-06-06[/B] 
+- First version.
+

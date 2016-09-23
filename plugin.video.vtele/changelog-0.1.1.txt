@@ -1,0 +1,6 @@
+0.1.1 =======
+Ajout du streaming en live des émissions
+
+0.1.0 =======
+Première version BETA!
+Corrige un bug avec certaine librairie liburl qui n'acceptaient pas le HTTPS

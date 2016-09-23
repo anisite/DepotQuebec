@@ -1,0 +1,63 @@
+﻿[B]3.0.2 | CB | 2016-09-20[/B] 
+- Épurage de l'URL (correction mineures lors de caractères non reconnus)
+- fanart.jpg
+- Déplacement des fichiers dans resources/lib/
+
+[B]3.0.1 | CB | 2016-09-14[/B] 
+- Retrait de la dépendance à OrderedDict
+
+[B]3.0.0 | CB | 2016-09-05[/B] 
+- Refactorisation en profondeur de tout le code (séparation en module)
+- Nouveau scraper du contenu utilisant l'API de TQ
+- Refonte des algorithmes de regroupement automatique des vidéos en sous-catégorie
+- Refonte du processus de lecture des flux vidéos
+- Ajout de la gestion des liens déjà visionnés ou partiellement visionnés
+- Abandon du paramètre de tri selon le web (ne s'applique plus)
+- Abandon (temporaire?) de la section "Populaires" et "Récents"
+
+[B]2.0.5 | SlySen | 2016-08-24[/B] 
+- script.module.simplejson is not optional (Thx to bmaupin)
+- Add context menu to get video informations
+- Lexic fixes
+- Settings dependencies
+
+[B]2.0.4 | SlySen | 2016-06-12[/B] 
+- Setting. Auto-delete Kodi .fi temp files
+- Enable access to the addon settings from the main page
+- Popup a warning dialog instead of an empty directory if no video
+
+[B]2.0.3 | SlySen | 2016-06-06[/B] 
+- Setting. Maximum possible caching TTL set to 72 hours
+- Remove any trailing HTML tags on GUI
+- No video duration if lest than 59 seconds
+- Setting to turn on/off tv-show name in descriptions
+- Setting to bypass network and web site connectivity verification
+
+[B]2.0.2 | SlySen | 2016-05-31[/B] 
+- Network availability and TQ Website connection verification
+- Now the addon Python code is Pylint compliant
+- Remove videos duplication in recents and populaires
+- Add/Fix video duration time
+
+[B]2.0.1 | SlySen | 2016-05-28[/B] 
+- User interface miscellaneous improvements
+
+[B]2.0.0 | SlySen | 2016-05-25[/B] 
+- Add caching support to reduce HTTP external calls 
+- Addon version incrementation from 0.2.8 to 2.0.0 
+
+[B]0.2.8 | SlySen | 2016-05-24[/B] 
+- Fix listEpisodes by seasons
+- Miscellaneous minor coding checkstyle fixes 
+- Show also the tv-show icon on seasons lists 
+- Setting to enable a debug mode
+- Setting to turn on/off the fanart on all listview
+- Add addon settings and languages resources
+
+[B]0.2.7 | SlySen | 2016-05-19[/B] 
+- Add an addon fanart
+- Use a more up-to-date icon 
+- Dirty fix for "Tous les genres" menu
+- Fix to extract the MediaUID 
+- Addon version incrementation from 0.2.6 to 0.2.7
+

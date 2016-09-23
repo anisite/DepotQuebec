@@ -1,0 +1,24 @@
+1.0.11
+- Première version infologique dans mon repo.
+
+1.0.9
+- Use HLS with new kodi support to play in 720p
+
+1.0.5
+- version by infologique.net
+
+1.0.4
+- fixed: possible error to parse myfavorites is episode outdated
+
+1.0.3
+- fixed: possible error to parse myfavorites is tvshow outdated
+
+1.0.2
+- fixed: bad import modules, under ATV and/or OSX
+
+1.0.1
+- added fanart toutv in root
+- fixed: typo, ajouer to ajouter
+
+1.0.0
+- Initial version
