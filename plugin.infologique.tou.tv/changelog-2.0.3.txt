@@ -1,6 +1,3 @@
-2.0.4
-- Support partiel du nouvel API (encore)
-
 2.0.2 & 2.0.3
 - Support de Kodi 17 
 - Correction d'une régression
