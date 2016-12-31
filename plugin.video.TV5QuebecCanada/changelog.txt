@@ -1,3 +1,6 @@
+[B]1.0.4 | CB | 2016-12-31[/B] 
+- Support de Kodi 17 (xmbc.Player())
+
 [B]1.0.3 | SlySen | 2016-08-24[/B] 
 - script.module.simplejson is not optional (Thx to bmaupin)
 - Code cleanup
