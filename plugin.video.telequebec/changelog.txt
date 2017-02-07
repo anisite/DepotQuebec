@@ -1,4 +1,8 @@
-﻿[B]3.0.2 | CB | 2016-09-20[/B] 
+﻿[B]3.1.0 | CB | 2017-02-06[/B] 
+- Correction du décodage/encodage UTF-8 ( Oxalin)
+- Obtention des liens hautes définitions (CB, PLafrance & andreq)
+
+[B]3.0.2 | CB | 2016-09-20[/B] 
 - Épurage de l'URL (correction mineures lors de caractères non reconnus)
 - fanart.jpg
 - Déplacement des fichiers dans resources/lib/

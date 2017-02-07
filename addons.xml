@@ -63,8 +63,8 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 
 <addon id="plugin.video.telequebec"
        name="Télé-Québec"
-       version="3.0.2"
-       provider-name="CB, SlySen"
+       version="3.1.0"
+       provider-name="CB"
 >
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -77,8 +77,10 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-	    <summary>Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
-	    <description>Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
     </extension>
 </addon>
 
