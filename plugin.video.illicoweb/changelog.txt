@@ -1,0 +1,3 @@
+[B]2.0.3 | MA | 2017-05-18[/B]
+- Supporte toutes les chaînes EN/FR malgré langue sélectionnée dans KODI
+
