@@ -1,3 +1,7 @@
+[B]2.1.2 | MA | 2017-06-13[/B]
+- Plus de corrections des sous-catégories
+- Corrigé problèmes à jouer certaines émissions
+
 [B]2.1.1 | MA | 2017-06-01[/B]
 - Correction des sous-catégories dans plus de chaînes
 
