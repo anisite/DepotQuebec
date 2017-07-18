@@ -1,3 +1,6 @@
+[B]1.0.3 | CB | 2017-07-17[/B] 
+- Correction mineure pour identifier le mediaID
+
 [B]1.0.2 | SlySen | 2016-08-24[/B] 
 - script.module.simplejson is not optional (Thx to bmaupin)
 - Do real back action to return to the main menu 

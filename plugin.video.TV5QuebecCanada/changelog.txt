@@ -1,3 +1,6 @@
+[B]1.0.5 | CB | 2017-07-17[/B] 
+- Correction mineure pour identifier le mediaID
+
 [B]1.0.4 | CB | 2016-12-31[/B] 
 - Support de Kodi 17 (xmbc.Player())
 
