@@ -43,7 +43,7 @@
 <!-- Addon basé sur le plugin mlbtv -->
 <!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
 <!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
-<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.1.3" provider-name="arseneault.mathieu@gmail.com">
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.2.0" provider-name="arseneault.mathieu@gmail.com">
   <requires>
     <import version="2.9.1" addon="script.module.requests" />
   </requires>
