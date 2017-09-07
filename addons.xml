@@ -86,7 +86,7 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 
 <addon id="plugin.video.unisTV"
        name="Unis TV"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="CB, SlySen"
 >
     <requires>
