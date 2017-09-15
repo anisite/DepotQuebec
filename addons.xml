@@ -16,29 +16,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.TV5QuebecCanada"
-       name="TV5 Québec Canada"
-       version="1.0.5"
-       provider-name="CB, SlySen"
->
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="xbmc.addon" version="12.0.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Plugin for the TV5.ca site</summary>
-	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site TV5.ca</summary>
-        <description>Play videos from TV5.ca site.</description>
-	    <description lang="fr">Cet addiciel permet d'accéder au contenu vidéo de TV5.ca.</description>
-    </extension>
-</addon>
-
 <!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
 <!-- Addon basé sur le plugin mlbtv -->
 <!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
@@ -81,6 +58,29 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
         <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
 	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.TV5QuebecCanada"
+       name="TV5 Québec Canada"
+       version="1.0.5"
+       provider-name="CB, SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the TV5.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site TV5.ca</summary>
+        <description>Play videos from TV5.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accéder au contenu vidéo de TV5.ca.</description>
     </extension>
 </addon>
 

@@ -28,7 +28,7 @@
 import os
 import sys
 import zipfile
-import md5
+import hashlib
 import re
 baseP = os.path.dirname(os.path.abspath(__file__))+"/"
 
@@ -151,17 +151,11 @@ class Generator:
     
     def _generate_md5_file( self,filename ):
         # create a new md5 hash
-        try:
-                       
-            m = md5.new( open( filename, "r" ).read() ).hexdigest()
-            print "MD5 of " + filename + " : " + m
-        except ImportError:
-            import hashlib
-            m = hashlib.md5( open( filename, "r", encoding="UTF-8" ).read().encode( "UTF-8" ) ).hexdigest()
-        
+        m = hashlib.md5( open( filename, "rb" ).read() ).hexdigest()
+        print "MD5 of " + filename + " : " + m
         # save file
         try:
-            self._save_file( m.encode( "UTF-8" ), file=filename+".md5" )
+            self._save_file( m, file=filename+".md5" )
         except Exception as e:
             # oops
             print("An error occurred creating " + filename + ".md5 file!\n%s" % e)
