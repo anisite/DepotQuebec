@@ -1,3 +1,6 @@
+2.0.5
+- Correction pour un changement d'API chez tou.tv
+
 2.0.4
 - Support partiel du nouvel API (encore)
 
