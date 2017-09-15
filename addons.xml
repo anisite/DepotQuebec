@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.5" provider-name="Infologique.net">
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.6" provider-name="Infologique.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>

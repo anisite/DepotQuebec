@@ -1,0 +1,52 @@
+2.0.6
+- Correction de la correction (pour android)
+
+2.0.5
+- Correction pour un changement d'API chez tou.tv
+
+2.0.4
+- Support partiel du nouvel API (encore)
+
+2.0.2 & 2.0.3
+- Support de Kodi 17 
+- Correction d'une régression
+
+2.0.1
+- Possibilité de supprimer des émissions en extra
+- Réparrer un bug qui empêchait de lire les "unique-content"
+- Autres bug divers
+
+2.0beta1
+- Sauvegarde des émissions écoutés sur un serveur
+- Synchro des favoris du site officiel (en développement)
+- Choix du flux RSTP/HLS
+- Reprise de l'émission à l'emplacement laissée et ce, sur tous les Kodi de la maison
+- Liste des émissions "en cours d'écoute" un peu à la netflix
+- Biensûr le contenu EXTRA est disponible pour les abonnés
+- Image 720p même pour ceux qui ne sont pas abonnés EXTRA
+- Refonte des menus pour refléter le site officiel
+
+1.0.11
+- Première version infologique dans mon repo.
+
+1.0.9
+- Use HLS with new kodi support to play in 720p
+
+1.0.5
+- version by infologique.net
+
+1.0.4
+- fixed: possible error to parse myfavorites is episode outdated
+
+1.0.3
+- fixed: possible error to parse myfavorites is tvshow outdated
+
+1.0.2
+- fixed: bad import modules, under ATV and/or OSX
+
+1.0.1
+- added fanart toutv in root
+- fixed: typo, ajouer to ajouter
+
+1.0.0
+- Initial version
