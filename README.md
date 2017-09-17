@@ -29,9 +29,9 @@ Consultez la page de nos développeurs :
 
 -[IllicoWEB](https://github.com/marseneault/xbmc-illicowebtv)
 
--[TouTV](https://github.com/anisite/quebec-kodi-plugins)
+-[Tou.TV](https://github.com/anisite/plugin.infologique.tou.tv)
 
--[Noovo](https://github.com/anisite/quebec-kodi-plugins)
+-[Noovo](https://github.com/anisite/plugin.video.vtele)
 
 -[UnisTV](https://github.com/ssenechal67/xbmc-kodi-TV5-Unis-Tv)
 
