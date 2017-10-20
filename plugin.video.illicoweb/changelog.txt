@@ -1,3 +1,8 @@
+[B]2.3.0 | MA | 2017-10-19[/B]
+- Passage à la nouvelle méthode de lecture
+- Support pour RDS
+- Meilleure utilisation du cache
+
 [B]2.2.0 | MA | 2017-07-26[/B]
 - Nouvelle méthode d'authentification
 
