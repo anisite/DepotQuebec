@@ -1,3 +1,6 @@
+[B]2.3.1 | MA | 2017-10-24[/B]
+- Correctif pour Kodi 16
+
 [B]2.3.0 | MA | 2017-10-19[/B]
 - Passage à la nouvelle méthode de lecture
 - Support pour RDS
