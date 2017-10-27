@@ -1,3 +1,6 @@
+2.0.8
+-Correction pour supporter la nouvelle méthode d'authentification de ICI TOU.TV
+
 2.0.7
 - Correction pour supporter les pannes du serveur de ICI TOU.TV
 
