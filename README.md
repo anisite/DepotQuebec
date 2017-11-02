@@ -33,6 +33,8 @@ Consultez la page de nos développeurs :
 
 -[Noovo](https://github.com/anisite/plugin.video.vtele)
 
+-[TVA](https://github.com/anisite/plugin.infologique.TVAgo/)
+
 -[UnisTV](https://github.com/ssenechal67/xbmc-kodi-TV5-Unis-Tv)
 
 -[TV5 Québec Canada](https://github.com/ssenechal67/xbmc-kodi-TV5-Quebec-Canada)
