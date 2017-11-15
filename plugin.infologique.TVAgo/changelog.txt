@@ -1,2 +1,5 @@
+0.0.2 =======
+-Correction d'un bug de PK
+
 0.0.1 =======
 -Première version
