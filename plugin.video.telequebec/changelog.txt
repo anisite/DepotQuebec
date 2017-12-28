@@ -1,4 +1,7 @@
-﻿[B]3.1.0 | CB | 2017-02-06[/B] 
+﻿[B]3.1.1 | CB | 2017-12-28[/B] 
+- Obtention des liens plus stable
+
+[B]3.1.0 | CB | 2017-02-06[/B] 
 - Correction du décodage/encodage UTF-8 ( Oxalin)
 - Obtention des liens hautes définitions (CB, PLafrance & andreq)
 
