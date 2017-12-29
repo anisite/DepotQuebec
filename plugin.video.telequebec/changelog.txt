@@ -1,4 +1,7 @@
-﻿[B]3.1.1 | CB | 2017-12-28[/B] 
+﻿[B]3.1.2| CB | 2017-12-29[/B] 
+- Gestion d'erreur pour la fonction remove_any_html_tags()
+
+[B]3.1.1 | CB | 2017-12-28[/B] 
 - Obtention des liens plus stable
 
 [B]3.1.0 | CB | 2017-02-06[/B] 
