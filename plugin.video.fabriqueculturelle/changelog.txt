@@ -1,0 +1,20 @@
+﻿[B]0.0.5 | CB | 2018-01-09[/B] 
+Ajout des balados externes (Soundcloud)
+Meilleur nettoyage des pages html
+
+[B]0.0.4 | CB | 2018-01-05[/B] 
+Ajout des liens externes (Youtube et Vimeo)
+Identification des articles et balados (non géré)
+Ajout d'éléments visuels
+
+[B]0.0.3 | CB | 2018-01-04[/B] 
+Ajout de la fonction de Recherche, sections Vidéos, Dossiers,Séries
+Débogage et test
+
+[B]0.0.2 | CB | 2017-12-30[/B] 
+Refonte complète
+
+[B]0.0.1 | CB | 2016-09-27[/B] 
+Version de travail
+
+
