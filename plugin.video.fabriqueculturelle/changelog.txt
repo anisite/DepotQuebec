@@ -1,4 +1,8 @@
-﻿[B]0.0.5 | CB | 2018-01-09[/B] 
+﻿[B]1.0.0 | CB | 2018-01-10[/B] 
+Premier release disponible
+Meilleur visuel (logo,icon, fanart)
+
+[B]0.0.5 | CB | 2018-01-09[/B] 
 Ajout des balados externes (Soundcloud)
 Meilleur nettoyage des pages html
 

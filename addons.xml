@@ -63,7 +63,7 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 
 <addon id="plugin.video.telequebec"
        name="Télé-Québec"
-       version="3.1.2"
+       version="3.2.0"
        provider-name="CB"
 >
     <requires>
@@ -166,7 +166,7 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 
 <addon id="plugin.video.fabriqueculturelle"
        name="La Fabrique Culturelle"
-       version="0.0.5"
+       version="1.0.0"
        provider-name="CB"
 >
     <requires>
@@ -180,10 +180,10 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-	    <summary >Addiciel vidéo donnant accès à La Fabrique Culturelle</summary>
-	    <summary lang="en">Plugin for the La Fabrique Culturelle website</summary>
-        <description>Cet addiciel permet d'accéder à La Fabrique Culturelle.</description>
-		<description lang="en">Play all videos from La Fabrique Culturelle website.</description>
+	    <summary >Addiciel vidéo donnant accès à La Fabrique Culturelle (www.lafabriqueculturelle.tv)</summary>
+	    <summary lang="en">Plugin for the La Fabrique Culturelle website (www.lafabriqueculturelle.tv)</summary>
+        <description>Cet addiciel permet d'accéder à La Fabrique Culturelle. Le contenu est également disponible sur www.lafabriqueculturelle.tv</description>
+		<description lang="en">Play all videos from La Fabrique Culturelle website (www.lafabriqueculturelle.tv)</description>
     </extension>
 </addon>
 </addons>

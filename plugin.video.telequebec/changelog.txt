@@ -1,4 +1,9 @@
-﻿[B]3.1.2| CB | 2017-12-29[/B] 
+﻿[B]3.2.0| CB | 2018-01-10[/B] 
+- Ajout de la section "Populaires"
+- Popup temporaire pour La Fabrique Culturelle
+- Correctif de la fonction getJsonBlock
+
+[B]3.1.2| CB | 2017-12-29[/B] 
 - Gestion d'erreur pour la fonction remove_any_html_tags()
 
 [B]3.1.1 | CB | 2017-12-28[/B] 
