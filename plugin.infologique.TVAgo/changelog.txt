@@ -1,3 +1,12 @@
+1.0.0 =======
+- Ajout des conteneurs pour mieux classer le contenu
+- Version complète fonctionnelle
+
+0.0.3 =======
+-Rework complet pour simplifier le plugin
+-Le video en direct fonctionne maintenant
+-Le contenu video fonctionne maintenant
+
 0.0.2 =======
 -Correction d'un bug de PK
 
