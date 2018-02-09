@@ -1,3 +1,7 @@
+1.0.1 =======
+- https://videos.tva.ca/ nécessite TLS 1.2 qui n'est disponible que sur Krypton (17)
+- Ajout des items contenus sur la page d'accueil
+
 1.0.0 =======
 - Ajout des conteneurs pour mieux classer le contenu
 - Version complète fonctionnelle
