@@ -1,43 +1,46 @@
+ï»¿0.5.3 =======
+-Correction du chemin des images du serveur NOOVO
+
 0.5.2 =======
--Corriger le bug "Titre" après la lecture
+-Corriger le bug "Titre" aprÃ¨s la lecture
 
 0.5.1 =======
 - Ajout du support pour Occupation Double, SQ, Code 111 et 911
 
 0.5.0 =======
-- Refonte suite aux changements pour la rentrée 2017
+- Refonte suite aux changements pour la rentrÃ©e 2017
 
 0.2.0 =======
-- Correction d'un bug causé par le changement de la sécurité sur l'api de V
+- Correction d'un bug causÃ© par le changement de la sÃ©curitÃ© sur l'api de V
 
 0.1.9 =======
-- Correction du choix de la qualité des vidéos, un changement chez Vtélé affectait 
-  la qualité "HD" les vidéos ne sont plus proposés en 720p mais bien en 700p, mon 
-  traiement ne trouvait pas le bon vidéo et lisait donc le dernier, sois celui avec 
-  la moins bonne qualité.
+- Correction du choix de la qualitÃ© des vidÃ©os, un changement chez VtÃ©lÃ© affectait 
+  la qualitÃ© "HD" les vidÃ©os ne sont plus proposÃ©s en 720p mais bien en 700p, mon 
+  traiement ne trouvait pas le bon vidÃ©o et lisait donc le dernier, sois celui avec 
+  la moins bonne qualitÃ©.
 
 0.1.8 =======
-- Correction du bug au retour au menu principal à la fin d'une émission
-- Support de la mise en favoris des épisodes
+- Correction du bug au retour au menu principal Ã  la fin d'une Ã©mission
+- Support de la mise en favoris des Ã©pisodes
 
 0.1.7 =======
-Correction d'un problème de mise à jour du nom de l'émission en cours
+Correction d'un problÃ¨me de mise Ã  jour du nom de l'Ã©mission en cours
 
 0.1.6 =======
-Correction d'un problème de mise à jour du nom de l'émission en cours
+Correction d'un problÃ¨me de mise Ã  jour du nom de l'Ã©mission en cours
 
 0.1.5 =======
-Correction du bug de chargement de l'application (suite à des changements chez Vtélé)
+Correction du bug de chargement de l'application (suite Ã  des changements chez VtÃ©lÃ©)
 
 0.1.3 =======
 Support de GOTHAM
 
 0.1.2 =======
-Correction du plugin pour la compatibilité avec XBMC FRODO (12.0)
+Correction du plugin pour la compatibilitÃ© avec XBMC FRODO (12.0)
 
 0.1.1 =======
-Ajout du streaming en live des émissions
+Ajout du streaming en live des Ã©missions
 
 0.1.0 =======
-Première version BETA!
+PremiÃ¨re version BETA!
 Corrige un bug avec certaine librairie liburl qui n'acceptaient pas le HTTPS
