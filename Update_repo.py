@@ -83,9 +83,7 @@ class Generator:
                 #print "ZIP FILE : " + fullPath
                 self._generate_md5_file(fullPath)
                 thisVersion = self.getVersion(fullPath)
-                if (self.isRecent(thisVersion, versionMostRecent)):
-                    versionMostRecent = thisVersion
-                    most_recent_file = fullPath
+                self.scanZip(fullPath)
 
             elif ( not os.path.isdir(fullPath ) or addon == ".svn" or addon == ".git" ):
                # print "Je rejete " + addon
@@ -98,8 +96,6 @@ class Generator:
                 # missing or poorly formatted addon.xml
                 #print("Excluding %s for %s" % ( _path, e ))
                 #pass
-        if (most_recent_file != ""):
-            self.scanZip(most_recent_file)
 
     def scanZip(self,path):
         print "---"
