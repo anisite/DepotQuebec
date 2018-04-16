@@ -1,6 +1,164 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="1.0.11" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="1.0.12" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.1" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.3" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.4" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.5" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.6" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.7" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
 <addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="2.0.8" provider-name="Infologique.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -13,6 +171,87 @@
     <platform>all</platform>
     <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
     <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+<addon id="plugin.infologique.TVAgo" name="TVA" version="0.0.1" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.elementtree" version="1.2.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Contenu vidéo de TVA</summary>
+    <description>-Regardez la télé en direct
+-Rattrapez les émissions des 15 derniers jours
+-Découvrez certaines émissions des chaînes spécialisées du Groupe TVA : AddikTV, Casa, Moi&amp;cie, Prise 2 et Yoopa
+-Explorez des primeurs, des exclusivités, des vidéos inédites et différentes thématiques</description>
+  </extension>
+</addon>
+
+<addon id="plugin.infologique.TVAgo" name="TVA" version="0.0.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.elementtree" version="1.2.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Contenu vidéo de TVA</summary>
+    <description>-Regardez la télé en direct
+-Rattrapez les émissions des 15 derniers jours
+-Découvrez certaines émissions des chaînes spécialisées du Groupe TVA : AddikTV, Casa, Moi&amp;cie, Prise 2 et Yoopa
+-Explorez des primeurs, des exclusivités, des vidéos inédites et différentes thématiques</description>
+  </extension>
+</addon>
+
+<addon id="plugin.infologique.TVAgo" name="TVA" version="0.0.3" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.elementtree" version="1.2.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Contenu vidéo de TVA</summary>
+    <description>-Regardez la télé en direct
+-Rattrapez les émissions des quelques derniers jours
+-Découvrez certaines émissions des chaînes spécialisées du Groupe TVA : AddikTV, Casa, Moi&amp;cie, Prise 2 et Yoopa
+-Explorez des primeurs, des exclusivités, des vidéos inédites et différentes thématiques</description>
+  </extension>
+</addon>
+
+<addon id="plugin.infologique.TVAgo" name="TVA" version="1.0.0" provider-name="anisite">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Contenu vidéo de TVA</summary>
+    <description>-Regardez la télé en direct
+-Rattrapez les émissions des quelques derniers jours
+-Découvrez certaines émissions des chaînes spécialisées du Groupe TVA : AddikTV, Casa, Moi&amp;cie, Prise 2 et Yoopa
+-Explorez des primeurs, des exclusivités, des vidéos inédites et différentes thématiques</description>
+    <news>v1.0.0  (2018-02-04) - Première version complète fonctionnelle.</news>
+    <language>fr</language>
+    <source>https://github.com/anisite/plugin.infologique.TVAgo</source>
   </extension>
 </addon>
 
@@ -65,6 +304,226 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
 <!-- Addon basé sur le plugin mlbtv -->
 <!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
 <!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.0.2" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.0.3" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.1.0" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.1.1" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.1.2" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.1.3" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.2.0" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.3.0" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.3.1" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
+<addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.3.2" provider-name="arseneault.mathieu@gmail.com">
+  <requires>
+    <import version="2.9.1" addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Visionner vos émissions favoris sur illico.tv!</summary>
+    <description>Visionner vos émissions favoris sur illico.tv!
+
+Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
+<!-- Addon basé sur le plugin mlbtv -->
+<!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
+<!-- Adapté pour nouvel illicoweb du 7 novembre 2013 par Mathieu Arseneault -->
 <addon id="plugin.video.illicoweb" name="Illicoweb TV" version="2.3.3" provider-name="arseneault.mathieu@gmail.com">
   <requires>
     <import version="2.9.1" addon="script.module.requests" />
@@ -81,6 +540,119 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
 
 Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéotron. Vous aurez ainsi accès aux chaînes en direct ou sur demande dont vous êtes membres.</description>
   </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.0.1"
+       provider-name="CB, SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.0.2"
+       provider-name="CB, SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+	    <summary>Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+	    <description>Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.1.0"
+       provider-name="CB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.1.1"
+       provider-name="CB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.1.2"
+       provider-name="CB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
 </addon>
 
 <addon id="plugin.video.telequebec"
@@ -103,6 +675,52 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
         <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
 	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.TV5QuebecCanada"
+       name="TV5 Québec Canada"
+       version="1.0.3"
+       provider-name="SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the TV5.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site TV5.ca</summary>
+        <description>Play videos from TV5.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder au contenu vidéo de TV5.ca.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.TV5QuebecCanada"
+       name="TV5 Québec Canada"
+       version="1.0.4"
+       provider-name="SlySen, CB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the TV5.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site TV5.ca</summary>
+        <description>Play videos from TV5.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder au contenu vidéo de TV5.ca.</description>
     </extension>
 </addon>
 
@@ -131,6 +749,54 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 
 <addon id="plugin.video.unisTV"
        name="Unis TV"
+       version="1.0.2"
+       provider-name="SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <!--<import addon="script.module.simple.downloader" version="0.9.4"/>-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Unis.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site Unis.ca</summary>
+        <description>Play videos from Unis.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder au contenu vidéo d'Unis.ca.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.unisTV"
+       name="Unis TV"
+       version="1.0.3"
+       provider-name="CB, SlySen"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <!--<import addon="script.module.simple.downloader" version="0.9.4"/>-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Unis.ca site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès aux vidéos du site Unis.ca</summary>
+        <description>Play videos from Unis.ca site.</description>
+	    <description lang="fr">Cet addiciel permet d'accéder au contenu vidéo d'Unis.ca.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.unisTV"
+       name="Unis TV"
        version="1.0.4"
        provider-name="CB, SlySen"
 >
@@ -151,6 +817,320 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
         <description>Play videos from Unis.ca site.</description>
 	    <description lang="fr">Cet addiciel permet d'accéder au contenu vidéo d'Unis.ca.</description>
     </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="Vtele" version="0.0.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu de la plateforme de VTélé en ligne</description>
+  </extension>
+  <extension point="xbmc.addon.repository"
+              name="Dépot Infologique.net">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/trunk/zip</datadir>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="Vtele" version="0.0.4" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu de la plateforme de VTélé en ligne</description>
+  </extension>
+  <extension point="xbmc.addon.repository" name="quebec-xbmc-plugin">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip</datadir>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="Vtele" version="0.0.5" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu de la plateforme de VTélé en ligne</description>
+  </extension>
+  <extension point="xbmc.addon.repository" name="quebec-xbmc-plugin">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip</datadir>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+  <extension point="xbmc.addon.repository" name="quebec-xbmc-plugin">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip</datadir>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.1" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+  <extension point="xbmc.addon.repository" name="quebec-xbmc-plugin">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip</datadir>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+  <extension point="xbmc.addon.repository" name="quebec-xbmc-plugin">
+    <info compressed="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml</info>
+    <checksum>http://quebec-xbmc-plugin.googlecode.com/svn/zip/addons.xml.md5</checksum>
+    <datadir zip="true">http://quebec-xbmc-plugin.googlecode.com/svn/zip</datadir>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.3" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.4" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.5" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.6" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.7" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.8" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.1.9" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="V Télé" version="0.2.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme de V Télé</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="NOOVO" version="0.3.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>V est un réseau de télévision canadien privé en langue française.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
+</addon>
+
+<!-- Addon basé sur le travail de FROST pour tou.tv -->
+<addon id="plugin.video.vtele" name="NOOVO" version="0.4.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>NOOVO regroupe les réseaux de télévision canadien privé en langue française Vtélé, MusiquePlus et Max.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="NOOVO" version="0.5.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>NOOVO regroupe les réseaux de télévision canadien privé en langue française Vtélé, MusiquePlus et Max.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="NOOVO" version="0.5.1" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>NOOVO regroupe les réseaux de télévision canadien privé en langue française Vtélé, MusiquePlus et Max.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="NOOVO" version="0.5.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>NOOVO regroupe les réseaux de télévision canadien privé en langue française Vtélé, MusiquePlus et Max.</summary>
+    <description>Contenu vidéo de la plateforme NOOVO</description>
+  </extension>
 </addon>
 
 <addon id="plugin.video.vtele" name="NOOVO" version="0.5.3" provider-name="Infologique.net">
