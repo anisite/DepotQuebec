@@ -1,16 +1,19 @@
-3.0.0
--Retrait de l'historique des émissions écoutés sur le serveur infologique.net;
--Ajout de le synchro des émissions écoutées sur le serveur de tou.tv pour une meilleure synergie;
--Ajout de la date de première diffusion du matériel;
--Ajout de l'affichage de la durée des épisodes;
--Amélioration de la vitesse de chargement pour les non-abonnés tou.tv;
--Amélioration de la vitesse générale;
--Section "En Écoute" renommée "Mes visionnements" pour se rapprocher de ce qu'offre le site officiel;
--Ajout d'un lien "se connecter" (correction d'un bug par rapport à cette pop-up);
--Autres diverses améliorations;
+3.0.0b2
+-Correction possible d'un plantage avec Kodi 16 sur certaines plates-formes
+
+3.0.0b1
+-Retrait de l'historique des Ã©missions Ã©coutÃ©s sur le serveur infologique.net;
+-Ajout de le synchro des Ã©missions Ã©coutÃ©es sur le serveur de tou.tv pour une meilleure synergie;
+-Ajout de la date de premiÃ¨re diffusion du matÃ©riel;
+-Ajout de l'affichage de la durÃ©e des Ã©pisodes;
+-AmÃ©lioration de la vitesse de chargement pour les non-abonnÃ©s tou.tv;
+-AmÃ©lioration de la vitesse gÃ©nÃ©rale;
+-Section "En Ã‰coute" renommÃ©e "Mes visionnements" pour se rapprocher de ce qu'offre le site officiel;
+-Ajout d'un lien "se connecter" (correction d'un bug par rapport Ã  cette pop-up);
+-Autres diverses amÃ©liorations;
 
 2.0.8
--Correction pour supporter la nouvelle méthode d'authentification de ICI TOU.TV
+-Correction pour supporter la nouvelle mÃ©thode d'authentification de ICI TOU.TV
 
 2.0.7
 - Correction pour supporter les pannes du serveur de ICI TOU.TV
@@ -26,25 +29,25 @@
 
 2.0.2 & 2.0.3
 - Support de Kodi 17 
-- Correction d'une régression
+- Correction d'une rÃ©gression
 
 2.0.1
-- Possibilité de supprimer des émissions en extra
-- Réparrer un bug qui empêchait de lire les "unique-content"
+- PossibilitÃ© de supprimer des Ã©missions en extra
+- RÃ©parrer un bug qui empÃªchait de lire les "unique-content"
 - Autres bug divers
 
 2.0beta1
-- Sauvegarde des émissions écoutés sur un serveur
-- Synchro des favoris du site officiel (en développement)
+- Sauvegarde des Ã©missions Ã©coutÃ©s sur un serveur
+- Synchro des favoris du site officiel (en dÃ©veloppement)
 - Choix du flux RSTP/HLS
-- Reprise de l'émission à l'emplacement laissée et ce, sur tous les Kodi de la maison
-- Liste des émissions "en cours d'écoute" un peu à la netflix
-- Biensûr le contenu EXTRA est disponible pour les abonnés
-- Image 720p même pour ceux qui ne sont pas abonnés EXTRA
-- Refonte des menus pour refléter le site officiel
+- Reprise de l'Ã©mission Ã  l'emplacement laissÃ©e et ce, sur tous les Kodi de la maison
+- Liste des Ã©missions "en cours d'Ã©coute" un peu Ã  la netflix
+- BiensÃ»r le contenu EXTRA est disponible pour les abonnÃ©s
+- Image 720p mÃªme pour ceux qui ne sont pas abonnÃ©s EXTRA
+- Refonte des menus pour reflÃ©ter le site officiel
 
 1.0.11
-- Première version infologique dans mon repo.
+- PremiÃ¨re version infologique dans mon repo.
 
 1.0.9
 - Use HLS with new kodi support to play in 720p
