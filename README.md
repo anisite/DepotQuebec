@@ -27,6 +27,8 @@ Consultez la page de nos développeurs :
 
 -[Télé-Québec](https://github.com/dualB/plugin.video.telequebec)
 
+-[La Fabrique Culturelle](https://github.com/dualB/plugin.video.fabriqueculturelle)
+
 -[IllicoWEB](https://github.com/marseneault/xbmc-illicowebtv)
 
 -[Tou.TV](https://github.com/anisite/plugin.infologique.tou.tv)
