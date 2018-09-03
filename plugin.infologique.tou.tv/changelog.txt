@@ -1,3 +1,6 @@
+3.0.1
+-Support des DRM! Vous pouvez sur certaines plates-formes écouter tou.tv en DRM! Films, épisodes extra, etc.
+
 3.0.0b2
 -Correction possible d'un plantage avec Kodi 16 sur certaines plates-formes
 
