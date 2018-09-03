@@ -1,0 +1,75 @@
+3.0.1
+-Support des DRM! Vous pouvez sur certaines plates-formes écouter tou.tv en DRM! Films, épisodes extra, etc.
+
+3.0.0b2
+-Correction possible d'un plantage avec Kodi 16 sur certaines plates-formes
+
+3.0.0b1
+-Retrait de l'historique des émissions écoutés sur le serveur infologique.net;
+-Ajout de le synchro des émissions écoutées sur le serveur de tou.tv pour une meilleure synergie;
+-Ajout de la date de première diffusion du matériel;
+-Ajout de l'affichage de la durée des épisodes;
+-Amélioration de la vitesse de chargement pour les non-abonnés tou.tv;
+-Amélioration de la vitesse générale;
+-Section "En Écoute" renommée "Mes visionnements" pour se rapprocher de ce qu'offre le site officiel;
+-Ajout d'un lien "se connecter" (correction d'un bug par rapport à cette pop-up);
+-Autres diverses améliorations;
+
+2.0.8
+-Correction pour supporter la nouvelle méthode d'authentification de ICI TOU.TV
+
+2.0.7
+- Correction pour supporter les pannes du serveur de ICI TOU.TV
+
+2.0.6
+- Correction de la correction (pour android)
+
+2.0.5
+- Correction pour un changement d'API chez tou.tv
+
+2.0.4
+- Support partiel du nouvel API (encore)
+
+2.0.2 & 2.0.3
+- Support de Kodi 17 
+- Correction d'une régression
+
+2.0.1
+- Possibilité de supprimer des émissions en extra
+- Réparrer un bug qui empêchait de lire les "unique-content"
+- Autres bug divers
+
+2.0beta1
+- Sauvegarde des émissions écoutés sur un serveur
+- Synchro des favoris du site officiel (en développement)
+- Choix du flux RSTP/HLS
+- Reprise de l'émission à l'emplacement laissée et ce, sur tous les Kodi de la maison
+- Liste des émissions "en cours d'écoute" un peu à la netflix
+- Biensûr le contenu EXTRA est disponible pour les abonnés
+- Image 720p même pour ceux qui ne sont pas abonnés EXTRA
+- Refonte des menus pour refléter le site officiel
+
+1.0.11
+- Première version infologique dans mon repo.
+
+1.0.9
+- Use HLS with new kodi support to play in 720p
+
+1.0.5
+- version by infologique.net
+
+1.0.4
+- fixed: possible error to parse myfavorites is episode outdated
+
+1.0.3
+- fixed: possible error to parse myfavorites is tvshow outdated
+
+1.0.2
+- fixed: bad import modules, under ATV and/or OSX
+
+1.0.1
+- added fanart toutv in root
+- fixed: typo, ajouer to ajouter
+
+1.0.0
+- Initial version
