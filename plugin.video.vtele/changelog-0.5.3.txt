@@ -1,10 +1,4 @@
-﻿0.5.5 =======
--Correction plantage lecture des épisodes
-
-0.5.4 =======
--Correction de l'adresse des vidéos
-
-0.5.3 =======
+﻿0.5.3 =======
 -Correction du chemin des images du serveur NOOVO
 
 0.5.2 =======
