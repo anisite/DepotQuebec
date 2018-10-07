@@ -1,4 +1,7 @@
-﻿0.5.5 =======
+﻿0.5.6 =======
+-Correction pour l'osti d'Occupation double de marde
+
+0.5.5 =======
 -Correction plantage lecture des épisodes
 
 0.5.4 =======
