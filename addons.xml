@@ -409,6 +409,29 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
     </extension>
 </addon>
 
+<addon id="plugin.video.fabriqueculturelle"
+       name="La Fabrique Culturelle"
+       version="1.0.1"
+       provider-name="dualB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+	    <summary >Addiciel vidéo donnant accès à La Fabrique Culturelle (www.lafabriqueculturelle.tv)</summary>
+	    <summary lang="en">Plugin for the La Fabrique Culturelle website (www.lafabriqueculturelle.tv)</summary>
+        <description>Cet addiciel permet d'accéder à La Fabrique Culturelle. Le contenu est également disponible sur www.lafabriqueculturelle.tv</description>
+		<description lang="en">Play all videos from La Fabrique Culturelle website (www.lafabriqueculturelle.tv)</description>
+    </extension>
+</addon>
+
 <!-- Addon basé sur le travail de Dany Côté pour le plugin vtélé -->
 <!-- Addon basé sur le plugin mlbtv -->
 <!-- Addon basé sur les excellents concepts et code de IPlayer et 1Channel -->
