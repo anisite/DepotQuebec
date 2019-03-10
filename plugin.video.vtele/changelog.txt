@@ -1,7 +1,4 @@
-0.5.7 =======
--Correction pour le fichier navig.py
- 
-0.5.6 =======
+﻿0.5.6 =======
 -Correction pour l'osti d'Occupation double de marde
 
 0.5.5 =======
