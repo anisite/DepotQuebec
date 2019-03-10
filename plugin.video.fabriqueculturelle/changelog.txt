@@ -1,8 +1,4 @@
-﻿[B]1.0.1 | dualB | 2018-10-27[/B] 
-Correctif pour requête SSL
-Nettoyage du code
-
-[B]1.0.0 | CB | 2018-01-10[/B] 
+﻿[B]1.0.0 | CB | 2018-01-10[/B] 
 Premier release disponible
 Meilleur visuel (logo,icon, fanart)
 

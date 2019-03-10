@@ -1,15 +1,4 @@
-﻿[B]3.2.2| dualB | 2018-09-27[/B] 
-- Requête SSL pour les playlist m3u8
-- Uniformisation des fonctions log
-- Correction pour les fanarts qui n'apparaissaient pas
-- Nettoyage du code
-
-[B]3.2.1| CB | 2018-09-18[/B] 
-- Retrait du popup temporaire pour La Fabrique Culturelle
-- Retrait de logs inutiles
-- Nettoyage de lignes de code inutiles
-
-[B]3.2.0| CB | 2018-01-10[/B] 
+﻿[B]3.2.0| CB | 2018-01-10[/B] 
 - Ajout de la section "Populaires"
 - Popup temporaire pour La Fabrique Culturelle
 - Correctif de la fonction getJsonBlock
