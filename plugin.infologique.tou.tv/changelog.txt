@@ -1,3 +1,8 @@
+4.0.1
+-Réécriture du player
+-Délestage de tous les type de flux sauf widevine** DRM requis sur votre kodi/OS
+-Optimisations
+
 4.0.0
 **Fonctionne uniquement avec les comptes tou.tv et non pas anonymement**
 -Première version "instable" pour corriger l'addon suite aux changements chez ICI Tou.Tv.
