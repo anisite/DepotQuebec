@@ -1,3 +1,8 @@
+4.1.0
+-Intégration des changements de r1v3n (Fix format video et filter)
+-Intégration des changements de thibaulf (Corrections pour supporter un client-key dynamique)
+**Gros merci les gars!!**
+
 4.0.4
 -Changement du clientID pour corriger un bug de 401 (fix temporaire)
 -https://services.xyz.ca/toutv/presentation/settings?device=web&version=4
