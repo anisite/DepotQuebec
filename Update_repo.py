@@ -57,7 +57,8 @@ class Generator:
         self.addons_xml = self.addons_xml.strip() + u("\n</addons>\n")
         # save file
         print("Sauvegarde du nouveau addon.xml")
-        self._save_file( self.addons_xml.encode( "UTF-8" ), file=baseP+"/addons.xml" )
+        #Needed to remove .decode("utf-8") to make it work.... don't know why
+        self._save_file( self.addons_xml, file=baseP+"/addons.xml" )
         self._generate_md5_file(baseP+"addons.xml")
         
         # notify user
