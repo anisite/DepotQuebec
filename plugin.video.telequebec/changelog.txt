@@ -1,4 +1,10 @@
-﻿[B]3.2.2| dualB | 2018-09-27[/B] 
+﻿[B]3.3.0| dualB | 2020-08-08[/B] 
+- Support des streams adaptifs Brightcove 
+- Ajout de la limite de bande passante
+- Ajout de la diffusion en direct
+- Retrait du classement automatique des items
+
+[B]3.2.2| dualB | 2018-09-27[/B] 
 - Requête SSL pour les playlist m3u8
 - Uniformisation des fonctions log
 - Correction pour les fanarts qui n'apparaissaient pas
