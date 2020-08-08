@@ -47,21 +47,19 @@ class Generator:
     def __init__( self ):
         # generate files
         # final addons text
-        print "RECHERCHE DE FICHIERS .ZIP"
-        print "--------------------------"
+        print("RECHERCHE DE FICHIERS .ZIP")
+        print("--------------------------")
         self.addons_xml = u("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<addons>\n")
         self._generate_addons_file(baseP)
-        print "--------------------------"
+        print("--------------------------")
         
         # clean and add closing tag
         self.addons_xml = self.addons_xml.strip() + u("\n</addons>\n")
         # save file
-        print "Sauvegarde du nouveau addon.xml"
+        print("Sauvegarde du nouveau addon.xml")
         self._save_file( self.addons_xml.encode( "UTF-8" ), file=baseP+"/addons.xml" )
-
-
-             
         self._generate_md5_file(baseP+"addons.xml")
+        
         # notify user
         print("Finished updating addons xml and md5 files")
     
@@ -75,21 +73,21 @@ class Generator:
         # loop thru and add each addons addon.xml file
         for addon in addons:
             fullPath = basePath + addon
-            #print fullPath
+            #print(fullPath)
             _path=""
             #try:
             # skip any file or .svn folder or .git folder
             if (fullPath.endswith(".zip")):
-                #print "ZIP FILE : " + fullPath
+                #print("ZIP FILE : " + fullPath)
                 self._generate_md5_file(fullPath)
                 thisVersion = self.getVersion(fullPath)
                 self.scanZip(fullPath)
 
             elif ( not os.path.isdir(fullPath ) or addon == ".svn" or addon == ".git" ):
-               # print "Je rejete " + addon
+               # print("Je rejete " + addon)
                pass
             elif (os.path.isdir(fullPath)):
-               # print fullPath + " Est un path"
+               # print(fullPath + " Est un path")
                 self._generate_addons_file(fullPath+"/")
 
             #except Exception as e:
@@ -98,16 +96,16 @@ class Generator:
                 #pass
 
     def scanZip(self,path):
-        print "---"
-        print "   --Most recent : " + path
-        print "---"
+        print("---")
+        print("   --Most recent : " + path)
+        print("---")
         zf = zipfile.ZipFile(path)
         datas = zf.infolist()
-        #print datas
+        #print(datas)
         for data in datas:
             filen = data.filename
             if (filen.endswith("/addon.xml")):
-                self.__addToAddonXML(zf.open(data))
+                self.__addToAddonXML(zf.open(data,'r'))
             elif (filen.endswith("/icon.png")):
                 zf.extract(data)
             elif (filen.endswith("/fanart.jpg")):
@@ -129,7 +127,9 @@ class Generator:
                     (versionMostRecent[0] == thisVersion[0] and versionMostRecent[1] == thisVersion[1] and versionMostRecent[2] < thisVersion[2])) 
 
     def __addToAddonXML(self, data):
-        xml_lines = data.read().splitlines()
+        read = data.read().decode("utf-8") 
+        xml_lines = read.splitlines()
+        print(read)
         # new addon
         addon_xml = ""
         # loop thru cleaning each line
@@ -148,7 +148,7 @@ class Generator:
     def _generate_md5_file( self,filename ):
         # create a new md5 hash
         m = hashlib.md5( open( filename, "rb" ).read() ).hexdigest()
-        print "MD5 of " + filename + " : " + m
+        print("MD5 of " + filename + " : " + m)
         # save file
         try:
             self._save_file( m, file=filename+".md5" )
@@ -159,7 +159,8 @@ class Generator:
     def _save_file( self, data, file ):
         try:
             # write data to the file (use b for Python 3)
-            open( file, "wb" ).write( data )
+            #removed b.... don't know why
+            open( file, "w" ).write( data )
         except Exception as e:
             # oops
             print("An error occurred saving %s file!\n%s" % ( file, e ))
