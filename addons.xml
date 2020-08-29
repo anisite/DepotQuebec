@@ -1476,4 +1476,24 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
         <description lang="en">Navigate through the content of the Canadian and Quebec francophone television channels available on their website. Some content requires a prior subscription to these channels.</description>
 	</extension>
 </addon>
+
+<addon id="repository.depot.quebec" name="Dépôt Québec"
+        version="1.5.0" provider-name="dualB">
+    <requires>
+        <import addon="xbmc.addon" version="12.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+        name="Dépôt Québec - Addiciels des chaînes de télévision québécoises">
+        <info compressed="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/dualB/DepotQuebec/anisite/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="fr">Addiciels de chaînes de télévision québécoises et francophones canadiennes</summary>
+        <summary lang="en">Add-ons of Quebec television channels and french Canadian television channels</summary>
+        <description lang="fr">Naviguez parmi le contenu des chaînes télévision québécoises et francophones canadiennes disponibles sur leur site web. Certains contenus nécessitent un abonnement préalable à ces chaînes.</description>
+        <description lang="en">Navigate through the content of the Canadian and Quebec francophone television channels available on their website. Some content requires a prior subscription to these channels.</description>
+	</extension>
+</addon>
 </addons>
