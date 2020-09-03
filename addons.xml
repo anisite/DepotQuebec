@@ -1478,14 +1478,14 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
 </addon>
 
 <addon id="repository.depot.quebec" name="Dépôt Québec"
-        version="1.5.0" provider-name="dualB">
+        version="1.6.0" provider-name="dualB">
     <requires>
         <import addon="xbmc.addon" version="12.0"/>
     </requires>
     <extension point="xbmc.addon.repository"
         name="Dépôt Québec - Addiciels des chaînes de télévision québécoises">
         <info compressed="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/dualB/DepotQuebec/anisite/addons.xml.md5</checksum>
+        <checksum>https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/</datadir>
         <hashes>false</hashes>
     </extension>

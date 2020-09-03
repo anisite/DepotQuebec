@@ -1,2 +1,8 @@
+[B]1.6.0 | dualB | 2020-09-02[/B] 
+Erreur d'URL
+
+[B]1.5.0 | dualB | 2020-08-29[/B] 
+Transition vers anisite
+
 [B]1.0.0 | dualB | 2016-09-21[/B] 
 Premiere version
