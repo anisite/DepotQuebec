@@ -1,9 +1,16 @@
+
+
 # Dépôt Québec
+
+## MIGRATION DU DÉPÔT
+
+VEUILLEZ INSTALLER LA [VERSION 1.6.0](https://github.com/dualB/DepotQuebec/blob/master/repository.depot.quebec/repository.depot.quebec-1.6.0.zip?raw=true) (mise à jour automatique ou manuellement) POUR VOUS ASSUREZ DE LA TRANSITION VERS LE NOUVEL HÉBERGEMENT.
+
 Dépôt pour les addiciels Kodi permettant l'accès au contenu web des chaînes de télévision francophones du Québec et du Canada.
 
 
 __Un seul fichier à télécharger!__ 
-Téléchargez le dépôt en [cliquant ici](https://github.com/dualB/DepotQuebec/blob/master/repository.depot.quebec/repository.depot.quebec-1.0.0.zip?raw=true).
+Téléchargez le dépôt en [cliquant ici](https://github.com/dualB/DepotQuebec/blob/master/repository.depot.quebec/repository.depot.quebec-1.6.0.zip?raw=true).
 
 ![logo](https://github.com/dualB/DepotQuebec/blob/master/repository.depot.quebec/icon.png)
 
