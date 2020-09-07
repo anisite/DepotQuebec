@@ -1,3 +1,8 @@
+1.0.0 =======
+-Nouvelle image, Noovo change aux mains de Bell Media.
+-Correction des erreurs suite aux changements du site Noovo.ca
+-Remplacement de beautifulsoup 3 par beautifulsoup 4 en vue de la fin du support
+
 0.6.2 =======
 -Correction des erreurs suite aux changements du site Noovo.ca
 
