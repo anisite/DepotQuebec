@@ -1,4 +1,7 @@
-﻿[B]3.3.0| dualB | 2020-08-08[/B] 
+﻿[B]3.4.0| dualB | 2020-09-18[/B] 
+- Retrait définitif du support pour les liens LimeLight (Brightcove seulement)
+
+[B]3.3.0| dualB | 2020-08-08[/B] 
 - Support des streams adaptifs Brightcove 
 - Ajout de la limite de bande passante
 - Ajout de la diffusion en direct
