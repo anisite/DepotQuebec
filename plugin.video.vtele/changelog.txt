@@ -1,3 +1,6 @@
+1.0.1 =======
+-Correction à la gestion des saisons pour OD
+
 1.0.0 =======
 -Nouvelle image, Noovo change aux mains de Bell Media.
 -Correction des erreurs suite aux changements du site Noovo.ca
