@@ -24,7 +24,7 @@
 # *  https://anarchintosh-projects.googlecode.com/files/addons_xml_generator.py
 
 """ addons.xml generator """
-import codecs
+
 import os
 import sys
 import zipfile
@@ -47,66 +47,67 @@ class Generator:
     def __init__( self ):
         # generate files
         # final addons text
-        log("RECHERCHE DE FICHIERS .ZIP")
-        log("--------------------------")
+        print "RECHERCHE DE FICHIERS .ZIP"
+        print "--------------------------"
         self.addons_xml = u("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<addons>\n")
         self._generate_addons_file(baseP)
-        log("--------------------------")
+        print "--------------------------"
         
         # clean and add closing tag
         self.addons_xml = self.addons_xml.strip() + u("\n</addons>\n")
         # save file
-        log("Sauvegarde du nouveau addon.xml")
-        #Needed to remove .encode("utf-8") to make it work.... don't know why
-        self._save_file( self.addons_xml, file=baseP+"/addons.xml" , codec= "utf-8")
+        print "Sauvegarde du nouveau addon.xml"
+        self._save_file( self.addons_xml.encode( "UTF-8" ), file=baseP+"/addons.xml" )
+
+
+             
         self._generate_md5_file(baseP+"addons.xml")
-        
         # notify user
-        log("Finished updating addons xml and md5 files")
+        print("Finished updating addons xml and md5 files")
     
     def _generate_addons_file( self , basePath ):
         # addon list
         addons = os.listdir( basePath+"." )
         most_recent_file = ""
         versionMostRecent = self.getVersion("")
-        #log(addons)
+        #print addons
 
         # loop thru and add each addons addon.xml file
         for addon in addons:
             fullPath = basePath + addon
-            #log(fullPath)
+            #print fullPath
             _path=""
             #try:
             # skip any file or .svn folder or .git folder
             if (fullPath.endswith(".zip")):
-                #log("ZIP FILE : " + fullPath)
+                #print "ZIP FILE : " + fullPath
                 self._generate_md5_file(fullPath)
                 thisVersion = self.getVersion(fullPath)
                 self.scanZip(fullPath)
 
             elif ( not os.path.isdir(fullPath ) or addon == ".svn" or addon == ".git" ):
-               # log("Je rejete " + addon)
+               # print "Je rejete " + addon
                pass
             elif (os.path.isdir(fullPath)):
-               # log(fullPath + " Est un path")
+               # print fullPath + " Est un path"
                 self._generate_addons_file(fullPath+"/")
 
             #except Exception as e:
                 # missing or poorly formatted addon.xml
-                #log("Excluding %s for %s" % ( _path, e ))
+                #print("Excluding %s for %s" % ( _path, e ))
                 #pass
 
     def scanZip(self,path):
-        log("---")
-        log("   --Most recent : " + path)
-        log("---")
+        print "---"
+        print "   --Most recent : " + path
+        print "---"
         zf = zipfile.ZipFile(path)
         datas = zf.infolist()
-        #log(datas)
+        #print datas
         for data in datas:
             filen = data.filename
             if (filen.endswith("/addon.xml")):
-                self.__addToAddonXML(zf.open(data,'r'))
+                self.__addToAddonXML(zf.open(data))
             elif (filen.endswith("/icon.png")):
                 zf.extract(data)
             elif (filen.endswith("/fanart.jpg")):
@@ -128,9 +129,7 @@ class Generator:
                     (versionMostRecent[0] == thisVersion[0] and versionMostRecent[1] == thisVersion[1] and versionMostRecent[2] < thisVersion[2])) 
 
     def __addToAddonXML(self, data):
-        read = data.read().decode("utf-8") 
-        xml_lines = read.splitlines()
-        log(read)
+        xml_lines = data.read().splitlines()
         # new addon
         addon_xml = ""
         # loop thru cleaning each line
@@ -149,28 +148,22 @@ class Generator:
     def _generate_md5_file( self,filename ):
         # create a new md5 hash
         m = hashlib.md5( open( filename, "rb" ).read() ).hexdigest()
-        log("MD5 of " + filename + " : " + m)
+        print "MD5 of " + filename + " : " + m
         # save file
         try:
             self._save_file( m, file=filename+".md5" )
         except Exception as e:
             # oops
-            log("An error occurred creating " + filename + ".md5 file!\n%s" % e)
+            print("An error occurred creating " + filename + ".md5 file!\n%s" % e)
     
-    def _save_file( self, data, file ,codec=None):
+    def _save_file( self, data, file ):
         try:
             # write data to the file (use b for Python 3)
-            #removed b.... don't know why
-            if codec==None:
-                open( file, "w" ).write( data )
-            else:
-                codecs.open( file,"w",encoding=codec ).write( data )
+            open( file, "wb" ).write( data )
         except Exception as e:
             # oops
-            log("An error occurred saving %s file!\n%s" % ( file, e ))
+            print("An error occurred saving %s file!\n%s" % ( file, e ))
 
-def log(arg):
-    print(arg)
 
 if ( __name__ == "__main__" ):
     # start
