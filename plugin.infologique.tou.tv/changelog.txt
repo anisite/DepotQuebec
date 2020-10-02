@@ -1,3 +1,6 @@
+4.1.2
+-Tentative d'enlever la spinning wheel
+
 4.1.1
 -Force l audio steam originale sans video description (Merci r1v3n)
 
