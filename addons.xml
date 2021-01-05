@@ -353,6 +353,42 @@
   </extension>
 </addon>
 
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="4.1.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+  </extension>
+</addon>
+
+
+<addon id="plugin.infologique.tou.tv" name="ICI TOU.TV" version="5.0.0~alpha" provider-name="Infologique.net">
+  <requires>
+    <!--<import addon="xbmc.python" version="2.1.0"/>-->
+    <import addon="script.module.inputstreamhelper" version="0.5.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande.</summary>
+    <description>Tou.tv est une webtélé de divertissement axée sur la vidéo sur demande. Les vidéos sont offertes gratuitement par Radio-Canada ainsi que par une vingtaine de diffuseurs et de producteurs partenaires. Tou.tv est la plus importante webtélé de divertissement.</description>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.infologique.TVAgo" name="TVA" version="0.0.1" provider-name="Infologique.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1015,6 +1051,54 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
     </extension>
 </addon>
 
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.4.0"
+       provider-name="dualB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="inputstream.adaptive" version="1.0.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.telequebec"
+       name="Télé-Québec"
+       version="3.4.1"
+       provider-name="dualB"
+>
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="inputstream.adaptive" version="1.0.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Plugin for the Télé-Québec.TV site</summary>
+	    <summary lang="fr">Addiciel vidéo donnant accès à la zone vidéo de TéléQuébec.TV</summary>
+        <description>Play all videos from Télé-Québec.TV site. Most videos can only be accessed in Canada.</description>
+	    <description lang="fr">Cet addiciel permet d'accèder à la zone vidéo de TéléQuébec.TV.  La plupart des vidéos ne sont accessibles qu'au Canada.</description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.vtele" name="Vtele" version="0.0.2" provider-name="Infologique.net">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
@@ -1457,6 +1541,54 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
   </extension>
 </addon>
 
+<addon id="plugin.video.vtele" name="Noovo" version="1.0.0" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Noovo est la marque média généraliste qui fait les choses différemment! Elle offre une programmation rassembleuse et divertissante.</summary>
+    <description>Contenu vidéo de la plateforme Noovo</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="Noovo" version="1.0.1" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Noovo est la marque média généraliste qui fait les choses différemment! Elle offre une programmation rassembleuse et divertissante.</summary>
+    <description>Contenu vidéo de la plateforme Noovo</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vtele" name="Noovo" version="1.0.2" provider-name="Infologique.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Noovo est la marque média généraliste qui fait les choses différemment! Elle offre une programmation rassembleuse et divertissante.</summary>
+    <description>Contenu vidéo de la plateforme Noovo</description>
+  </extension>
+</addon>
+
 <addon id="repository.depot.quebec" name="Dépôt Québec"
         version="1.0.0" provider-name="dualB">
     <requires>
@@ -1495,5 +1627,5 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
         <description lang="fr">Naviguez parmi le contenu des chaînes télévision québécoises et francophones canadiennes disponibles sur leur site web. Certains contenus nécessitent un abonnement préalable à ces chaînes.</description>
         <description lang="en">Navigate through the content of the Canadian and Quebec francophone television channels available on their website. Some content requires a prior subscription to these channels.</description>
 	</extension>
-</addon> 
+</addon>
 </addons>
