@@ -1,3 +1,6 @@
+2.0.0 =======
+- Support de Kodi 19 (Python 3.0)
+
 1.0.1 =======
 -Correction à la gestion des saisons pour OD
 
