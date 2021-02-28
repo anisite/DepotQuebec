@@ -1,3 +1,7 @@
+2.0.0 =======
+- Mise à jour de l'API pour le nouveau site qub
+- Support de Python 3 (Kodi 19)
+
 1.0.2 =======
 - Corriger le son absent sur certains appareils
 
