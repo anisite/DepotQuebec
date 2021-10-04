@@ -1,6 +1,6 @@
 # Dépôt Québec
 
-> :warning: **Note importante**: La fin support de Kodi 18.x est prévue pour la fin de l'année 2021, aucune mise à jour spécifique à la version 18.9 ne sera faite en 2022. Kodi 19 ayant à ce moment 1 an.
+> :warning: **Note importante**: La fin support de Kodi 18.x est prévue pour la fin de l'année 2021, aucune mise à jour spécifique à la version 18.9 ne sera faite en 2022. Kodi 19 ayant à ce moment 1 an. Notez aussi que tout add-on peut être abandonné à tout moment si l'effort de maintient est trop grand.
 
 
 Dépôt pour les addiciels Kodi permettant l'accès au contenu web des chaînes de télévision francophones du Québec et du Canada.
