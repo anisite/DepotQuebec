@@ -1,3 +1,12 @@
+5.1.1
+- Corriger bug python 2 (kodi 18.x)
+
+5.1.0
+- Intégrer le nouveau login de Radio-Canada
+
+5.0.0
+- Version Python 3.0, compatible Kodi 18 et 19
+
 4.1.2
 -Tentative d'enlever la spinning wheel
 

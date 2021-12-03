@@ -1,3 +1,6 @@
+3.0.0 =======
+- Support du nouveau système de Noovo
+
 2.0.0 =======
 - Support de Kodi 19 (Python 3.0)
 
