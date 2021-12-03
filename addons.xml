@@ -683,6 +683,27 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
   </extension>
 </addon>
 
+
+<addon id="plugin.video.crave" name="Crave" version="1.0.1" provider-name="antoine-lombardo">
+  <requires>
+    <import addon="script.module.inputstreamhelper" version="0.5.8"/>
+    <import addon="script.module.requests" version="2.25.1+"/>
+    <import addon="script.module.xmltodict" version="0.12.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Crave anciennement CraveTV est un service canadien de vidéo à la demande détenu par Bell Canada.</summary>
+    <description>Crave anciennement CraveTV est un service canadien de vidéo à la demande détenu par Bell Canada. Le service est vu comme étant un concurrent canadien de Netflix, disposant de 10 000 heures de programmes télévisés. Le contenu de Crave est accessible directement depuis un poste de télévision via un catalogue de programmes ou via le site web et l'application de Crave.</description>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.fabriqueculturelle"
        name="La Fabrique Culturelle"
        version="1.0.0"

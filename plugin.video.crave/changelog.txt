@@ -1,2 +1,5 @@
+1.0.1
+- Correction d'un bug avec les messages bilingues
+- Ajout de librairies manquantes
 1.0.0
 - Version initiale
