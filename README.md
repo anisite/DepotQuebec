@@ -39,3 +39,5 @@ Consultez la page de nos développeurs :
 -[Noovo](https://github.com/anisite/plugin.video.vtele)
 
 -[TVA](https://github.com/anisite/plugin.infologique.TVAgo/)
+
+-[Crave](https://github.com/antoine-lombardo/plugin.video.crave)
