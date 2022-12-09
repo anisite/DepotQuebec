@@ -1,6 +1,13 @@
+2.0.2 =======
+- Corrige Zeste,TVA sport et Evasion qui ne marchait plus.
+- Enleve les items qui ne sont pas des emissions (comme des nouvelles de sport).
+- Corrige les emissions qui etaient vide parce qu'ils n'ont pas de saison. Comme les emissions d'humour.
+
+2.0.1 =======
+- Corrige nouvelle URL utilisé par TVA+
+
 2.0.0 =======
-- Mise à jour de l'API pour le nouveau site qub
-- Support de Python 3 (Kodi 19)
+- Nouvelle API et support de kodi 19
 
 1.0.2 =======
 - Corriger le son absent sur certains appareils
