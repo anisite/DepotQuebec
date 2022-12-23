@@ -1,3 +1,9 @@
+2.0.4 ====
+- Les streams en direct ne sont plus disponible avec les émissions en ratrappage. Le code a été refait pour aller les chercher a part. Le stream en direct sont maintenant directement dans le menu parent. Plus besoin de faire 2 étapes pour le démarer.
+
+2.0.3 =====
+- Corrigé où le nom du stream en direct est pris dans le json. TVA a enlevé un champ
+
 2.0.2 =======
 - Corrige Zeste,TVA sport et Evasion qui ne marchait plus.
 - Enleve les items qui ne sont pas des emissions (comme des nouvelles de sport).
