@@ -802,6 +802,7 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
   </extension>
 </addon>
 
+
 <addon id="plugin.video.crave" name="Crave" version="1.0.0" provider-name="antoine-lombardo">
   <requires>
     <import addon="script.module.inputstreamhelper" version="0.5.8"/>
@@ -2019,6 +2020,28 @@ Il vous suffit de vous connecter avec votre identifiant Espace client de Vidéot
         <checksum>https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/</datadir>
         <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="fr">Addiciels de chaînes de télévision québécoises et francophones canadiennes</summary>
+        <summary lang="en">Add-ons of Quebec television channels and french Canadian television channels</summary>
+        <description lang="fr">Naviguez parmi le contenu des chaînes télévision québécoises et francophones canadiennes disponibles sur leur site web. Certains contenus nécessitent un abonnement préalable à ces chaînes.</description>
+        <description lang="en">Navigate through the content of the Canadian and Quebec francophone television channels available on their website. Some content requires a prior subscription to these channels.</description>
+	</extension>
+</addon>
+
+<addon id="repository.depot.quebec" name="Dépôt Québec"
+        version="1.6.1" provider-name="dualB">
+    <requires>
+        <import addon="xbmc.addon" version="12.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+        name="Dépôt Québec - Addiciels des chaînes de télévision québécoises">
+        <dir>
+            <info compressed="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/anisite/DepotQuebec/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/anisite/DepotQuebec/master/</datadir>
+            <hashes>false</hashes>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
 		<summary lang="fr">Addiciels de chaînes de télévision québécoises et francophones canadiennes</summary>

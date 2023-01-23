@@ -1,3 +1,6 @@
+[B]1.6.1 | anisite | 2023-01-23[/B] 
+Corriger format du repo pour Kodi 20
+
 [B]1.6.0 | dualB | 2020-09-02[/B] 
 Erreur d'URL
 
