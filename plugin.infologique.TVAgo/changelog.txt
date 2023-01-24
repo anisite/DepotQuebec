@@ -1,3 +1,6 @@
+2.0.5 ==== 
+- Fix pour Kodi 20
+
 2.0.4 ====
 - Les streams en direct ne sont plus disponible avec les émissions en ratrappage. Le code a été refait pour aller les chercher a part. Le stream en direct sont maintenant directement dans le menu parent. Plus besoin de faire 2 étapes pour le démarer.
 
