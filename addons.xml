@@ -910,6 +910,30 @@ v1.0.1 (2018-02-09) - https://videos.tva.ca/ nécessite TLS 1.2 seulement dispon
   </extension>
 </addon>
 
+<addon id="plugin.infologique.TVAgo" name="TVA+" version="2.0.7" provider-name="anisite, MaximeLussier">
+  <requires>
+    <import addon="script.module.simplejson" version="3.16.1"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Contenu vidéo de TVA</summary>
+    <description>-Regardez la télé en direct
+-Rattrapez les émissions des quelques derniers jours
+-Découvrez certaines émissions des chaînes spécialisées du Groupe TVA : AddikTV, Casa, Moi&amp;cie, Prise 2 et Yoopa
+-Explorez des primeurs, des exclusivités, des vidéos inédites et différentes thématiques</description>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <language>fr</language>
+    <source>https://github.com/anisite/plugin.infologique.TVAgo</source>
+  </extension>
+</addon>
+
 
 <addon id="plugin.video.crave" name="Crave" version="1.0.0" provider-name="antoine-lombardo">
   <requires>

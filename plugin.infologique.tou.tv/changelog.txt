@@ -1,3 +1,12 @@
+6.0.1
+- Corriger: Émissions qui ne s'affichent pas avec l'api legacy (v1)
+- Corriger: Ajouter ou supprimer une émission de la liste des écoutes
+- Ajouter ou supprimer une émission de la liste des favoris
+- Reprise d'une émission à un moment X (selon la position de reprise sauvegardée)
+
+6.0.0
+- Première version pour supporter l'api style ott (v2)
+
 5.1.3
 - Fix pour Kodi 20
 
