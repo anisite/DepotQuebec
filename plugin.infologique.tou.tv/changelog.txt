@@ -1,3 +1,13 @@
+7.0.1
+- Fix variable non initialisée
+
+7.0.0
+- Nouvelle authentification
+- Nouvelles api de lineups
+
+6.1.2
+- Fix changement de la gestion des claims
+
 6.1.1
 - Gérer les utilisateurs non-extra, merci @antoyo 
 - Sélectionner automatiquement le flux vidéo compatible, merci @antoyo 
